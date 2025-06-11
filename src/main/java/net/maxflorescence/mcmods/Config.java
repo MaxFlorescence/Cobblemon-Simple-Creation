@@ -1,4 +1,4 @@
-package com.maxflorescence.mcmods;
+package net.maxflorescence.mcmods;
 
 import java.util.List;
 import java.util.Set;
