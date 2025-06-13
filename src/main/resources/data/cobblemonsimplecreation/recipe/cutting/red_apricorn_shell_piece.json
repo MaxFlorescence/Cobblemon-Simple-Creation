@@ -1,0 +1,17 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:red_apricorn"
+    }
+  ],
+  "results": [
+    {
+        "item": {
+            "id": "cobblemonsimplecreation:red_apricorn_shell_piece"
+        },
+        "count": 4
+    }
+  ],
+  "processingTime": 200
+}
