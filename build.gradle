@@ -18,6 +18,18 @@ version = mod_version
 group = mod_group_id
 
 repositories {
+    maven { url = "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/"}
+    maven { url = "https://maven.impactdev.net/repository/development/"}
+    maven { url = "https://hub.spigotmc.org/nexus/content/groups/public/"}
+
+    maven { url = "https://maven.createmod.net" }
+    maven { url = "https://mvn.devos.one/snapshots" }
+    maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/" }
+    maven {
+        name = 'NeoForged'
+        url = 'https://maven.neoforged.net/releases'
+    }
+
     mavenLocal()
 }
 
@@ -133,6 +145,16 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    implementation(annotationProcessor("com.simibubi.create:create-${minecraft_version}:${create_version}:slim")) {
+        transitive = false
+    }
+
+    implementation "net.createmod.ponder:Ponder-NeoForge-${minecraft_version}:${ponder_version}"
+    compileOnly "dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}"
+    runtimeOnly "dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}"
+    implementation "com.tterrag.registrate:Registrate:${registrate_version}"
+    
+    implementation "com.cobblemon:neoforge:1.6.1+1.21.1"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
