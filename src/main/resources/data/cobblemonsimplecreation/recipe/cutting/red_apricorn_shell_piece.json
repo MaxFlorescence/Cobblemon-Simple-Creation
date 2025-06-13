@@ -10,7 +10,12 @@
         "item": {
             "id": "cobblemonsimplecreation:red_apricorn_shell_piece"
         },
-        "count": 4
+        "count": 8
+    },
+    {
+        "item": {
+            "id": "minecraft:red_dye"
+        }
     }
   ],
   "processingTime": 200
