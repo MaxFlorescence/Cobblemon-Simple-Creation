@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "L": {
+            "item": "cobblemonsimplecreation:poke_ball_lid"
+        },
+        "B": {
+            "item": "cobblemonsimplecreation:tier_1_ball_base"
+        }
+    },
+    "pattern": [
+        "L",
+        "B"
+    ],
+    "result": {
+        "id": "cobblemon:poke_ball"
+    }
+}
