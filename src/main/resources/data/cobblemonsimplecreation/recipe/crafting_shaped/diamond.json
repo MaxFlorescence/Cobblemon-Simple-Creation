@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "D": {
+            "item": "cobblemonsimplecreation:diamond_shard"
+        }
+    },
+    "pattern": [
+        "DDD",
+        "DDD",
+        "DDD"
+    ],
+    "result": {
+        "id": "minecraft:diamond",
+        "count": 1
+    }
+}
