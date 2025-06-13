@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "cobblemonsimplecreation:item/ancient_roseate_ball_lid"
+    }
+}

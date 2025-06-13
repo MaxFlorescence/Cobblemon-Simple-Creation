@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "cobblemonsimplecreation:item/tier_5_ball_base"
+    }
+}

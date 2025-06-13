@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "cobblemonsimplecreation:item/repeat_ball_lid"
+    }
+}
