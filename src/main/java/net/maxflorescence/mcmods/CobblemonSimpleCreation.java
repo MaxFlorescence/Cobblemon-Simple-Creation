@@ -69,7 +69,7 @@ public class CobblemonSimpleCreation
             // .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> ModItems.INCOMPLETE_BALL_LID.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-                output.accept(ModItems.RED_APRICORN_SHELL.get());
+                output.accept(ModItems.RED_APRICORN_SHELL_PIECE.get());
                 output.accept(ModItems.ANCIENT_AZURE_BALL_LID.get());
                 output.accept(ModItems.ANCIENT_CITRINE_BALL_LID.get());
                 output.accept(ModItems.ANCIENT_FEATHER_BALL_LID.get());

@@ -68,7 +68,7 @@ public class ModItems {
     public static final DeferredItem<Item> TIER_4_BALL_BASE = ITEMS.register("tier_4_ball_base", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TIER_5_BALL_BASE = ITEMS.register("tier_5_ball_base", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> DIAMOND_SHARD = ITEMS.register("diamond_shard", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RED_APRICORN_SHELL = ITEMS.register("red_apricorn_shell", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RED_APRICORN_SHELL_PIECE = ITEMS.register("red_apricorn_shell_piece", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus modEventBus) {
         // Register the Deferred Register to the mod event bus so blocks get registered
