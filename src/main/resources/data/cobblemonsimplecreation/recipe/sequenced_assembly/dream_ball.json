@@ -1,0 +1,62 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+    	"item": "cobblemonsimplecreation:template_ball"
+    },
+	"transitional_item": {
+		"id": "cobblemonsimplecreation:incomplete_dream_ball"
+	}, 
+	"loops": 1,
+	"results": [
+		{
+            "id": "cobblemon:dream_ball"
+		}
+	],
+	"sequence": [
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_dream_ball"
+				},
+				{
+					"item": "cobblemonsimplecreation:dream_ball_lid"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_dream_ball"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_dream_ball"
+				},
+				{
+					"item": "cobblemonsimplecreation:diamond_shard"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_dream_ball"
+				}
+			]
+		},
+		{
+			"type": "create:pressing",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_dream_ball"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_dream_ball"
+				}
+			]
+		}
+	]
+}

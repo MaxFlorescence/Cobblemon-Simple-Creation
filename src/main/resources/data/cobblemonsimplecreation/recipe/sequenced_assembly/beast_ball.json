@@ -1,0 +1,62 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+    	"item": "cobblemonsimplecreation:template_ball"
+    },
+	"transitional_item": {
+		"id": "cobblemonsimplecreation:incomplete_beast_ball"
+	}, 
+	"loops": 1,
+	"results": [
+		{
+            "id": "cobblemon:beast_ball"
+		}
+	],
+	"sequence": [
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_beast_ball"
+				},
+				{
+					"item": "cobblemonsimplecreation:beast_ball_lid"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_beast_ball"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_beast_ball"
+				},
+				{
+					"item": "cobblemonsimplecreation:diamond_shard"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_beast_ball"
+				}
+			]
+		},
+		{
+			"type": "create:pressing",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_beast_ball"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_beast_ball"
+				}
+			]
+		}
+	]
+}

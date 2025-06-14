@@ -1,0 +1,62 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+    	"item": "cobblemonsimplecreation:template_ball"
+    },
+	"transitional_item": {
+		"id": "cobblemonsimplecreation:incomplete_level_ball"
+	}, 
+	"loops": 1,
+	"results": [
+		{
+            "id": "cobblemon:level_ball"
+		}
+	],
+	"sequence": [
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_level_ball"
+				},
+				{
+					"item": "cobblemonsimplecreation:level_ball_lid"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_level_ball"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_level_ball"
+				},
+				{
+					"item": "minecraft:iron_nugget"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_level_ball"
+				}
+			]
+		},
+		{
+			"type": "create:pressing",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_level_ball"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_level_ball"
+				}
+			]
+		}
+	]
+}

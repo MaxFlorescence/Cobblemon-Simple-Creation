@@ -1,0 +1,62 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+    	"item": "cobblemonsimplecreation:template_ball"
+    },
+	"transitional_item": {
+		"id": "cobblemonsimplecreation:incomplete_timer_ball"
+	}, 
+	"loops": 1,
+	"results": [
+		{
+            "id": "cobblemon:timer_ball"
+		}
+	],
+	"sequence": [
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_timer_ball"
+				},
+				{
+					"item": "cobblemonsimplecreation:timer_ball_lid"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_timer_ball"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_timer_ball"
+				},
+				{
+					"item": "minecraft:gold_nugget"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_timer_ball"
+				}
+			]
+		},
+		{
+			"type": "create:pressing",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_timer_ball"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_timer_ball"
+				}
+			]
+		}
+	]
+}

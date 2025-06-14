@@ -1,0 +1,62 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+    	"item": "cobblemonsimplecreation:template_ball"
+    },
+	"transitional_item": {
+		"id": "cobblemonsimplecreation:incomplete_friend_ball"
+	}, 
+	"loops": 1,
+	"results": [
+		{
+            "id": "cobblemon:friend_ball"
+		}
+	],
+	"sequence": [
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_friend_ball"
+				},
+				{
+					"item": "cobblemonsimplecreation:friend_ball_lid"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_friend_ball"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_friend_ball"
+				},
+				{
+					"item": "minecraft:iron_nugget"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_friend_ball"
+				}
+			]
+		},
+		{
+			"type": "create:pressing",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_friend_ball"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_friend_ball"
+				}
+			]
+		}
+	]
+}

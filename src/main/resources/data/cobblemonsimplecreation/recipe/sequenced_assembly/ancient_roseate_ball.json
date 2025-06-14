@@ -1,0 +1,62 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+    	"item": "cobblemonsimplecreation:template_ball"
+    },
+	"transitional_item": {
+		"id": "cobblemonsimplecreation:incomplete_ancient_roseate_ball"
+	}, 
+	"loops": 1,
+	"results": [
+		{
+            "id": "cobblemon:ancient_roseate_ball"
+		}
+	],
+	"sequence": [
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_ancient_roseate_ball"
+				},
+				{
+					"item": "cobblemonsimplecreation:ancient_roseate_ball_lid"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_ancient_roseate_ball"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_ancient_roseate_ball"
+				},
+				{
+					"item": "create:copper_nugget"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_ancient_roseate_ball"
+				}
+			]
+		},
+		{
+			"type": "create:pressing",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:incomplete_ancient_roseate_ball"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:incomplete_ancient_roseate_ball"
+				}
+			]
+		}
+	]
+}
