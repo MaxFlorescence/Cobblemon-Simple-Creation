@@ -12,8 +12,11 @@ public class ModItems {
         CobblemonSimpleCreation.MODID
     );
 
-    // Create new items
-    public static final DeferredItem<Item> INCOMPLETE_BALL_LID = ITEMS.register("incomplete_ball_lid", () -> new Item(new Item.Properties()));
+    // Apricorn Shell Pieces
+    public static final DeferredItem<Item> RED_APRICORN_SHELL_PIECE = ITEMS.register("red_apricorn_shell_piece", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GREEN_APRICORN_SHELL_PIECE = ITEMS.register("green_apricorn_shell_piece", () -> new Item(new Item.Properties()));
+
+    // Ball Lids
     public static final DeferredItem<Item> ANCIENT_AZURE_BALL_LID = ITEMS.register("ancient_azure_ball_lid", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ANCIENT_CITRINE_BALL_LID = ITEMS.register("ancient_citrine_ball_lid", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ANCIENT_FEATHER_BALL_LID = ITEMS.register("ancient_feather_ball_lid", () -> new Item(new Item.Properties()));
@@ -60,15 +63,16 @@ public class ModItems {
     public static final DeferredItem<Item> TIMER_BALL_LID = ITEMS.register("timer_ball_lid", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ULTRA_BALL_LID = ITEMS.register("ultra_ball_lid", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> VERDANT_BALL_LID = ITEMS.register("verdant_ball_lid", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> ZINC_HEMISPHERE = ITEMS.register("zinc_hemisphere", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> INCOMPLETE_BALL_BASE = ITEMS.register("incomplete_ball_base", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> TIER_1_BALL_BASE = ITEMS.register("tier_1_ball_base", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> TIER_2_BALL_BASE = ITEMS.register("tier_2_ball_base", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> TIER_3_BALL_BASE = ITEMS.register("tier_3_ball_base", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> TIER_4_BALL_BASE = ITEMS.register("tier_4_ball_base", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> TIER_5_BALL_BASE = ITEMS.register("tier_5_ball_base", () -> new Item(new Item.Properties()));
+
+    // Sequenced Assembly Items
+    public static final DeferredItem<Item> TEMPLATE_BALL = ITEMS.register("template_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_POKE_BALL = ITEMS.register("incomplete_poke_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_PARK_BALL = ITEMS.register("incomplete_park_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_MASTER_BALL = ITEMS.register("incomplete_master_ball", () -> new Item(new Item.Properties()));
+
+    // Misc Ingredients
     public static final DeferredItem<Item> DIAMOND_SHARD = ITEMS.register("diamond_shard", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RED_APRICORN_SHELL_PIECE = ITEMS.register("red_apricorn_shell_piece", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NETHERITE_CHUNK = ITEMS.register("netherite_chunk", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus modEventBus) {
         // Register the Deferred Register to the mod event bus so blocks get registered

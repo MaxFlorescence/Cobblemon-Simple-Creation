@@ -1,5 +1,9 @@
 {
     "itemGroup.cobblemonsimplecreation": "Cobblemon: Simple Creation",
+
+    "item.cobblemonsimplecreation.red_apricorn_shell_piece": "Red Apricorn Shell Piece",
+    "item.cobblemonsimplecreation.green_apricorn_shell_piece": "Green Apricorn Shell Piece",
+
     "item.cobblemonsimplecreation.ancient_azure_ball_lid": "Ancient Azure Ball Lid",
     "item.cobblemonsimplecreation.ancient_citrine_ball_lid": "Ancient Citrine Ball Lid",
     "item.cobblemonsimplecreation.ancient_feather_ball_lid": "Ancient Feather Ball Lid",
@@ -43,17 +47,15 @@
     "item.cobblemonsimplecreation.safari_ball_lid": "Safari Ball Lid",
     "item.cobblemonsimplecreation.slate_ball_lid": "Slate Ball Lid",
     "item.cobblemonsimplecreation.sport_ball_lid": "Sport Ball Lid",
-    "item.cobblemonsimplecreation.tier_1_ball_base": "Tier 1 Ball Base",
-    "item.cobblemonsimplecreation.tier_2_ball_base": "Tier 2 Ball Base",
-    "item.cobblemonsimplecreation.tier_3_ball_base": "Tier 3 Ball Base",
-    "item.cobblemonsimplecreation.tier_4_ball_base": "Tier 4 Ball Base",
-    "item.cobblemonsimplecreation.tier_5_ball_base": "Tier 5 Ball Base",
     "item.cobblemonsimplecreation.timer_ball_lid": "Timer Ball Lid",
     "item.cobblemonsimplecreation.ultra_ball_lid": "Ultra Ball Lid",
     "item.cobblemonsimplecreation.verdant_ball_lid": "Verdant Ball Lid",
-    "item.cobblemonsimplecreation.zinc_hemisphere": "Zinc Hemisphere",
+    
+    "item.cobblemonsimplecreation.template_ball": "Template Ball",
+    "item.cobblemonsimplecreation.incomplete_poke_ball": "Incomplete Poke Ball",
+    "item.cobblemonsimplecreation.incomplete_park_ball": "Incomplete Park Ball",
+    "item.cobblemonsimplecreation.incomplete_master_ball": "Incomplete Master Ball",
+
     "item.cobblemonsimplecreation.diamond_shard": "Diamond Shard",
-    "item.cobblemonsimplecreation.incomplete_ball_base": "Incomplete Ball Base",
-    "item.cobblemonsimplecreation.incomplete_ball_lid": "Incomplete Ball Lid",
-    "item.cobblemonsimplecreation.red_apricorn_shell_piece": "Red Apricorn Shell Piece"
+    "item.cobblemonsimplecreation.netherite_chunk": "Netherite Chunk"
 }

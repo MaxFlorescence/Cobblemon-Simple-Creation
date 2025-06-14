@@ -67,9 +67,13 @@ public class CobblemonSimpleCreation
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOD_TAB = CREATIVE_MODE_TABS.register("cobblemon_simple_creation", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.cobblemonsimplecreation")) //The language key for the title of your CreativeModeTab
             // .withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> ModItems.INCOMPLETE_BALL_LID.get().getDefaultInstance())
+            .icon(() -> ModItems.TEMPLATE_BALL.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
+                // Apricorn Shell Pieces
                 output.accept(ModItems.RED_APRICORN_SHELL_PIECE.get());
+                output.accept(ModItems.GREEN_APRICORN_SHELL_PIECE.get());
+
+                // Ball Lids
                 output.accept(ModItems.ANCIENT_AZURE_BALL_LID.get());
                 output.accept(ModItems.ANCIENT_CITRINE_BALL_LID.get());
                 output.accept(ModItems.ANCIENT_FEATHER_BALL_LID.get());
@@ -115,16 +119,15 @@ public class CobblemonSimpleCreation
                 output.accept(ModItems.SPORT_BALL_LID.get());
                 output.accept(ModItems.TIMER_BALL_LID.get());
                 output.accept(ModItems.ULTRA_BALL_LID.get());
-                output.accept(ModItems.INCOMPLETE_BALL_LID.get());
                 output.accept(ModItems.VERDANT_BALL_LID.get());
-                output.accept(ModItems.TIER_1_BALL_BASE.get());
-                output.accept(ModItems.TIER_2_BALL_BASE.get());
-                output.accept(ModItems.TIER_3_BALL_BASE.get());
-                output.accept(ModItems.TIER_4_BALL_BASE.get());
-                output.accept(ModItems.TIER_5_BALL_BASE.get());
-                output.accept(ModItems.INCOMPLETE_BALL_BASE.get());
-                output.accept(ModItems.ZINC_HEMISPHERE.get());
+
+                // Sequenced Assembly Items
+                output.accept(ModItems.TEMPLATE_BALL.get());
+
+                // Misc Ingredients
                 output.accept(ModItems.DIAMOND_SHARD.get());
+                output.accept(ModItems.NETHERITE_CHUNK.get());
+                // output.accept(ModItems.ECHO_FRAGMENT.get());
             }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
