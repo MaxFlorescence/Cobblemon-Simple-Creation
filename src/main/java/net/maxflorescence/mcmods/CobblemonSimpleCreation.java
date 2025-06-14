@@ -69,9 +69,27 @@ public class CobblemonSimpleCreation
             // .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> ModItems.TEMPLATE_BALL.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
+                // Misc Ingredients
+                output.accept(ModItems.DIAMOND_SHARD.get());
+                output.accept(ModItems.NETHERITE_CHUNK.get());
+                output.accept(ModItems.ECHO_FRAGMENT.get());
+                
                 // Apricorn Shell Pieces
                 output.accept(ModItems.RED_APRICORN_SHELL_PIECE.get());
                 output.accept(ModItems.GREEN_APRICORN_SHELL_PIECE.get());
+                output.accept(ModItems.BLUE_APRICORN_SHELL_PIECE.get());
+                output.accept(ModItems.YELLOW_APRICORN_SHELL_PIECE.get());
+                output.accept(ModItems.PINK_APRICORN_SHELL_PIECE.get());
+                output.accept(ModItems.BLACK_APRICORN_SHELL_PIECE.get());
+                output.accept(ModItems.WHITE_APRICORN_SHELL_PIECE.get());
+
+                // Tumblestone Shards
+                output.accept(ModItems.TUMBLESTONE_SHARD.get());
+                output.accept(ModItems.SKY_TUMBLESTONE_SHARD.get());
+                output.accept(ModItems.BLACK_TUMBLESTONE_SHARD.get());
+
+                // Sequenced Assembly Items
+                output.accept(ModItems.TEMPLATE_BALL.get());
 
                 // Ball Lids
                 output.accept(ModItems.ANCIENT_AZURE_BALL_LID.get());
@@ -120,14 +138,6 @@ public class CobblemonSimpleCreation
                 output.accept(ModItems.TIMER_BALL_LID.get());
                 output.accept(ModItems.ULTRA_BALL_LID.get());
                 output.accept(ModItems.VERDANT_BALL_LID.get());
-
-                // Sequenced Assembly Items
-                output.accept(ModItems.TEMPLATE_BALL.get());
-
-                // Misc Ingredients
-                output.accept(ModItems.DIAMOND_SHARD.get());
-                output.accept(ModItems.NETHERITE_CHUNK.get());
-                // output.accept(ModItems.ECHO_FRAGMENT.get());
             }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
