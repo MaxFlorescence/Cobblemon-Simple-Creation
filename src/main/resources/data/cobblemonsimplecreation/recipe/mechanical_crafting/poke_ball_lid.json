@@ -1,0 +1,17 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " RR ",
+        "R  R"
+    ],
+    "key": {
+        "R": {
+            "item": "cobblemonsimplecreation:red_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:poke_ball_lid"
+    }
+}

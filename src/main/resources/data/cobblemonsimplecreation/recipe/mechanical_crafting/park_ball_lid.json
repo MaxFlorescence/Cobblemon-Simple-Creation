@@ -1,0 +1,20 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " RG ",
+        "G  G"
+    ],
+    "key": {
+        "R": {
+            "item": "cobblemonsimplecreation:red_apricorn_shell_piece"
+        },
+        "G": {
+            "item": "cobblemonsimplecreation:green_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:park_ball_lid"
+    }
+}
