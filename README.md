@@ -1,4 +1,4 @@
-# Cobblemon: Simple Creation
+# Cobblemon: Simple Creation v1.0.0
 A Neoforge Minecraft mod that automates the creation of certain Cobblemon items using Create.
 
 # Recipes Added
