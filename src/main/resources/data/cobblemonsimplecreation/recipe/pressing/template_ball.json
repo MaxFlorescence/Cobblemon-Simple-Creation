@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create:zinc_nugget"
+    }
+  ],
+  "results": [
+    {
+        "item": {
+            "id": "cobblemonsimplecreation:template_ball"
+        }
+    }
+  ]
+}

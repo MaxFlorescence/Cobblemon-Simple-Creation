@@ -2,19 +2,19 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "cobblemon:red_apricorn"
+      "item": "cobblemon:green_apricorn"
     }
   ],
   "results": [
     {
         "item": {
-            "id": "cobblemonsimplecreation:red_apricorn_shell_piece"
+            "id": "cobblemonsimplecreation:green_apricorn_shell_piece"
         },
         "count": 8
     },
     {
         "item": {
-            "id": "minecraft:red_dye"
+            "id": "minecraft:green_dye"
         }
     }
   ]

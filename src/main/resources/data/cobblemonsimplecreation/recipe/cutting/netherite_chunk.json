@@ -1,0 +1,17 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "results": [
+    {
+        "item": {
+            "id": "cobblemonsimplecreation:netherite_chunk"
+        },
+        "count": 3
+    }
+  ],
+  "processing_time": 250
+}
