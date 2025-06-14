@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "cobblemon:black_tumblestone"
+        }
+    ],
+    "result": {
+        "id": "cobblemonsimplecreation:black_tumblestone_piece",
+        "count": 9
+    }
+}

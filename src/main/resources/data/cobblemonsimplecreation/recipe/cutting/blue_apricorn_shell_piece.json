@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:blue_apricorn"
+    }
+  ],
+  "results": [
+    {
+        "item": {
+            "id": "cobblemonsimplecreation:blue_apricorn_shell_piece"
+        },
+        "count": 8
+    },
+    {
+        "item": {
+            "id": "minecraft:blue_dye"
+        }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "results": [
+    {
+        "item": {
+            "id": "cobblemonsimplecreation:echo_fragment"
+        },
+        "count": 8
+    }
+  ]
+}

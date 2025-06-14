@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:yellow_apricorn"
+    }
+  ],
+  "results": [
+    {
+        "item": {
+            "id": "cobblemonsimplecreation:yellow_apricorn_shell_piece"
+        },
+        "count": 8
+    },
+    {
+        "item": {
+            "id": "minecraft:yellow_dye"
+        }
+    }
+  ]
+}

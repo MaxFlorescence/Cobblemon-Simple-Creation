@@ -1,0 +1,21 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:black_apricorn"
+    }
+  ],
+  "results": [
+    {
+        "item": {
+            "id": "cobblemonsimplecreation:black_apricorn_shell_piece"
+        },
+        "count": 8
+    },
+    {
+        "item": {
+            "id": "minecraft:black_dye"
+        }
+    }
+  ]
+}

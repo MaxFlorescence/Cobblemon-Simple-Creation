@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "D": {
+            "item": "cobblemonsimplecreation:sky_tumblestone_piece"
+        }
+    },
+    "pattern": [
+        "TTT",
+        "TTT",
+        "TTT"
+    ],
+    "result": {
+        "id": "cobblemon:sky_tumblestone",
+        "count": 1
+    }
+}
