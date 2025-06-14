@@ -66,9 +66,52 @@ public class ModItems {
 
     // Sequenced Assembly Items
     public static final DeferredItem<Item> TEMPLATE_BALL = ITEMS.register("template_ball", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> INCOMPLETE_POKE_BALL = ITEMS.register("incomplete_poke_ball", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> INCOMPLETE_PARK_BALL = ITEMS.register("incomplete_park_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_AZURE_BALL = ITEMS.register("incomplete_ancient_azure_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_CITRINE_BALL = ITEMS.register("incomplete_ancient_citrine_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_FEATHER_BALL = ITEMS.register("incomplete_ancient_feather_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_GIGATON_BALL = ITEMS.register("incomplete_ancient_gigaton_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_GREAT_BALL = ITEMS.register("incomplete_ancient_great_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_HEAVY_BALL = ITEMS.register("incomplete_ancient_heavy_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_IVORY_BALL = ITEMS.register("incomplete_ancient_ivory_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_JET_BALL = ITEMS.register("incomplete_ancient_jet_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_LEADEN_BALL = ITEMS.register("incomplete_ancient_leaden_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_POKE_BALL = ITEMS.register("incomplete_ancient_poke_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_ROSEATE_BALL = ITEMS.register("incomplete_ancient_roseate_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_SLATE_BALL = ITEMS.register("incomplete_ancient_slate_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_ULTRA_BALL = ITEMS.register("incomplete_ancient_ultra_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_VERDANT_BALL = ITEMS.register("incomplete_ancient_verdant_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ANCIENT_WING_BALL = ITEMS.register("incomplete_ancient_wing_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_AZURE_BALL = ITEMS.register("incomplete_azure_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_BEAST_BALL = ITEMS.register("incomplete_beast_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_CITRINE_BALL = ITEMS.register("incomplete_citrine_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_DIVE_BALL = ITEMS.register("incomplete_dive_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_DREAM_BALL = ITEMS.register("incomplete_dream_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_DUSK_BALL = ITEMS.register("incomplete_dusk_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_FAST_BALL = ITEMS.register("incomplete_fast_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_FRIEND_BALL = ITEMS.register("incomplete_friend_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_GREAT_BALL = ITEMS.register("incomplete_great_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_HEAL_BALL = ITEMS.register("incomplete_heal_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_HEAVY_BALL = ITEMS.register("incomplete_heavy_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_LEVEL_BALL = ITEMS.register("incomplete_level_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_LOVE_BALL = ITEMS.register("incomplete_love_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_LURE_BALL = ITEMS.register("incomplete_lure_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_LUXURY_BALL = ITEMS.register("incomplete_luxury_ball", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> INCOMPLETE_MASTER_BALL = ITEMS.register("incomplete_master_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_MOON_BALL = ITEMS.register("incomplete_moon_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_NEST_BALL = ITEMS.register("incomplete_nest_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_NET_BALL = ITEMS.register("incomplete_net_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_PARK_BALL = ITEMS.register("incomplete_park_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_POKE_BALL = ITEMS.register("incomplete_poke_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_PREMIER_BALL = ITEMS.register("incomplete_premier_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_QUICK_BALL = ITEMS.register("incomplete_quick_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_REPEAT_BALL = ITEMS.register("incomplete_repeat_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ROSEATE_BALL = ITEMS.register("incomplete_roseate_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_SAFARI_BALL = ITEMS.register("incomplete_safari_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_SLATE_BALL = ITEMS.register("incomplete_slate_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_SPORT_BALL = ITEMS.register("incomplete_sport_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_TIMER_BALL = ITEMS.register("incomplete_timer_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_ULTRA_BALL = ITEMS.register("incomplete_ultra_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> INCOMPLETE_VERDANT_BALL = ITEMS.register("incomplete_verdant_ball", () -> new Item(new Item.Properties()));
 
     // Misc Ingredients
     public static final DeferredItem<Item> DIAMOND_SHARD = ITEMS.register("diamond_shard", () -> new Item(new Item.Properties()));
