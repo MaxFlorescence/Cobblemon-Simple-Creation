@@ -3,6 +3,15 @@
 
     "item.cobblemonsimplecreation.red_apricorn_shell_piece": "Red Apricorn Shell Piece",
     "item.cobblemonsimplecreation.green_apricorn_shell_piece": "Green Apricorn Shell Piece",
+    "item.cobblemonsimplecreation.blue_apricorn_shell_piece": "Blue Apricorn Shell Piece",
+    "item.cobblemonsimplecreation.yellow_apricorn_shell_piece": "Yellow Apricorn Shell Piece",
+    "item.cobblemonsimplecreation.pink_apricorn_shell_piece": "Pink Apricorn Shell Piece",
+    "item.cobblemonsimplecreation.black_apricorn_shell_piece": "Black Apricorn Shell Piece",
+    "item.cobblemonsimplecreation.white_apricorn_shell_piece": "White Apricorn Shell Piece",
+    
+    "item.cobblemonsimplecreation.tumblestone_shard": "Tumblestone Shard",
+    "item.cobblemonsimplecreation.sky_tumblestone_shard": "Sky Tumblestone Shard",
+    "item.cobblemonsimplecreation.black_tumblestone_shard": "Black Tumblestone Shard",
 
     "item.cobblemonsimplecreation.ancient_azure_ball_lid": "Ancient Azure Ball Lid",
     "item.cobblemonsimplecreation.ancient_citrine_ball_lid": "Ancient Citrine Ball Lid",
@@ -100,5 +109,6 @@
     "item.cobblemonsimplecreation.incomplete_verdant_ball": "Incomplete Verdant Ball",
 
     "item.cobblemonsimplecreation.diamond_shard": "Diamond Shard",
-    "item.cobblemonsimplecreation.netherite_chunk": "Netherite Chunk"
+    "item.cobblemonsimplecreation.netherite_chunk": "Netherite Chunk",
+    "item.cobblemonsimplecreation.echo_fragment": "Echo Fragment"
 }
