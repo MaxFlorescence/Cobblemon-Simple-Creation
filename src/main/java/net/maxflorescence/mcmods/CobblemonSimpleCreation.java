@@ -83,10 +83,10 @@ public class CobblemonSimpleCreation
                 output.accept(ModItems.BLACK_APRICORN_SHELL_PIECE.get());
                 output.accept(ModItems.WHITE_APRICORN_SHELL_PIECE.get());
 
-                // Tumblestone Shards
-                output.accept(ModItems.TUMBLESTONE_SHARD.get());
-                output.accept(ModItems.SKY_TUMBLESTONE_SHARD.get());
-                output.accept(ModItems.BLACK_TUMBLESTONE_SHARD.get());
+                // Tumblestone Pieces
+                output.accept(ModItems.TUMBLESTONE_PIECE.get());
+                output.accept(ModItems.SKY_TUMBLESTONE_PIECE.get());
+                output.accept(ModItems.BLACK_TUMBLESTONE_PIECE.get());
 
                 // Sequenced Assembly Items
                 output.accept(ModItems.TEMPLATE_BALL.get());

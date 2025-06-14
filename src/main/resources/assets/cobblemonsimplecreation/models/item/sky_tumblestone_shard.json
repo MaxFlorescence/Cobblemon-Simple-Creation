@@ -1,6 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "cobblemonsimplecreation:item/sky_tumblestone_shard"
-    }
-}

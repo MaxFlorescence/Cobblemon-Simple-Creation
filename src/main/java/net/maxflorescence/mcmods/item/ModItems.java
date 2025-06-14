@@ -118,10 +118,10 @@ public class ModItems {
     public static final DeferredItem<Item> BLACK_APRICORN_SHELL_PIECE = ITEMS.register("black_apricorn_shell_piece", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> WHITE_APRICORN_SHELL_PIECE = ITEMS.register("white_apricorn_shell_piece", () -> new Item(new Item.Properties()));
 
-    // Tumblestone shards
-    public static final DeferredItem<Item> TUMBLESTONE_SHARD = ITEMS.register("tumblestone_shard", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> SKY_TUMBLESTONE_SHARD = ITEMS.register("sky_tumblestone_shard", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BLACK_TUMBLESTONE_SHARD = ITEMS.register("black_tumblestone_shard", () -> new Item(new Item.Properties()));
+    // Tumblestone Pieces
+    public static final DeferredItem<Item> TUMBLESTONE_PIECE = ITEMS.register("tumblestone_piece", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SKY_TUMBLESTONE_PIECE = ITEMS.register("sky_tumblestone_piece", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BLACK_TUMBLESTONE_PIECE = ITEMS.register("black_tumblestone_piece", () -> new Item(new Item.Properties()));
 
     // Misc Ingredients
     public static final DeferredItem<Item> DIAMOND_SHARD = ITEMS.register("diamond_shard", () -> new Item(new Item.Properties()));
