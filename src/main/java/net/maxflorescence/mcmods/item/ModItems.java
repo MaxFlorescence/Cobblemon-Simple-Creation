@@ -12,10 +12,6 @@ public class ModItems {
         CobblemonSimpleCreation.MODID
     );
 
-    // Apricorn Shell Pieces
-    public static final DeferredItem<Item> RED_APRICORN_SHELL_PIECE = ITEMS.register("red_apricorn_shell_piece", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> GREEN_APRICORN_SHELL_PIECE = ITEMS.register("green_apricorn_shell_piece", () -> new Item(new Item.Properties()));
-
     // Ball Lids
     public static final DeferredItem<Item> ANCIENT_AZURE_BALL_LID = ITEMS.register("ancient_azure_ball_lid", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ANCIENT_CITRINE_BALL_LID = ITEMS.register("ancient_citrine_ball_lid", () -> new Item(new Item.Properties()));
@@ -113,9 +109,24 @@ public class ModItems {
     public static final DeferredItem<Item> INCOMPLETE_ULTRA_BALL = ITEMS.register("incomplete_ultra_ball", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> INCOMPLETE_VERDANT_BALL = ITEMS.register("incomplete_verdant_ball", () -> new Item(new Item.Properties()));
 
+    // Apricorn Shell Pieces
+    public static final DeferredItem<Item> RED_APRICORN_SHELL_PIECE = ITEMS.register("red_apricorn_shell_piece", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> GREEN_APRICORN_SHELL_PIECE = ITEMS.register("green_apricorn_shell_piece", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BLUE_APRICORN_SHELL_PIECE = ITEMS.register("blue_apricorn_shell_piece", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> YELLOW_APRICORN_SHELL_PIECE = ITEMS.register("yellow_apricorn_shell_piece", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PINK_APRICORN_SHELL_PIECE = ITEMS.register("pink_apricorn_shell_piece", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BLACK_APRICORN_SHELL_PIECE = ITEMS.register("black_apricorn_shell_piece", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> WHITE_APRICORN_SHELL_PIECE = ITEMS.register("white_apricorn_shell_piece", () -> new Item(new Item.Properties()));
+
+    // Tumblestone shards
+    public static final DeferredItem<Item> TUMBLESTONE_SHARD = ITEMS.register("tumblestone_shard", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SKY_TUMBLESTONE_SHARD = ITEMS.register("sky_tumblestone_shard", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BLACK_TUMBLESTONE_SHARD = ITEMS.register("black_tumblestone_shard", () -> new Item(new Item.Properties()));
+
     // Misc Ingredients
     public static final DeferredItem<Item> DIAMOND_SHARD = ITEMS.register("diamond_shard", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> NETHERITE_CHUNK = ITEMS.register("netherite_chunk", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ECHO_FRAGMENT = ITEMS.register("echo_fragment", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus modEventBus) {
         // Register the Deferred Register to the mod event bus so blocks get registered
