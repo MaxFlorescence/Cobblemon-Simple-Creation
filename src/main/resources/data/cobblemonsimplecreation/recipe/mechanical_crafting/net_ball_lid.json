@@ -1,0 +1,23 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " KB ",
+        "B  W"
+    ],
+    "key": {
+        "B": {
+            "item": "cobblemonsimplecreation:blue_apricorn_shell_piece"
+        },
+        "K": {
+            "item": "cobblemonsimplecreation:black_apricorn_shell_piece"
+        },
+        "W": {
+            "item": "cobblemonsimplecreation:white_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:net_ball_lid"
+    }
+}

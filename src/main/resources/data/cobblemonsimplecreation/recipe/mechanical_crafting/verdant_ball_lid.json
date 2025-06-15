@@ -1,0 +1,17 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " GG ",
+        "G  G"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemonsimplecreation:green_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:verdant_ball_lid"
+    }
+}

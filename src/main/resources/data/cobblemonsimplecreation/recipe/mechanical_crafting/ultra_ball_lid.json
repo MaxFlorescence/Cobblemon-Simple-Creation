@@ -1,0 +1,20 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " KY ",
+        "Y  K"
+    ],
+    "key": {
+        "Y": {
+            "item": "cobblemonsimplecreation:yellow_apricorn_shell_piece"
+        },
+        "K": {
+            "item": "cobblemonsimplecreation:black_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:ultra_ball_lid"
+    }
+}

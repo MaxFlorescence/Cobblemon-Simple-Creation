@@ -1,0 +1,23 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " YT ",
+        "T  K"
+    ],
+    "key": {
+        "T": {
+            "item": "cobblemonsimplecreation:tumblestone_piece"
+        },
+        "K": {
+            "item": "cobblemonsimplecreation:black_apricorn_shell_piece"
+        },
+        "Y": {
+            "item": "cobblemonsimplecreation:yellow_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:ancient_ultra_ball_lid"
+    }
+}

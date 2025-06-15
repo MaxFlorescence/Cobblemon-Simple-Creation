@@ -1,0 +1,23 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " YG ",
+        "G  R"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemonsimplecreation:green_apricorn_shell_piece"
+        },
+        "R": {
+            "item": "cobblemonsimplecreation:red_apricorn_shell_piece"
+        },
+        "Y": {
+            "item": "cobblemonsimplecreation:yellow_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:friend_ball_lid"
+    }
+}

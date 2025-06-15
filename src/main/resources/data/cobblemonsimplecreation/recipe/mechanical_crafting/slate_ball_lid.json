@@ -1,0 +1,17 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " KK ",
+        "K  K"
+    ],
+    "key": {
+        "K": {
+            "item": "cobblemonsimplecreation:black_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:slate_ball_lid"
+    }
+}

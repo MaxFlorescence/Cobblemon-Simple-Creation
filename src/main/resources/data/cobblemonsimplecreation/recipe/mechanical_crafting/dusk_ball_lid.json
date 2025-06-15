@@ -1,0 +1,20 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " GK ",
+        "K  G"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemonsimplecreation:green_apricorn_shell_piece"
+        },
+        "K": {
+            "item": "cobblemonsimplecreation:black_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:dusk_ball_lid"
+    }
+}

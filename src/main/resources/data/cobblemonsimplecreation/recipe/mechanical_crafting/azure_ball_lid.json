@@ -1,0 +1,17 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " BB ",
+        "B  B"
+    ],
+    "key": {
+        "B": {
+            "item": "cobblemonsimplecreation:blue_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:azure_ball_lid"
+    }
+}

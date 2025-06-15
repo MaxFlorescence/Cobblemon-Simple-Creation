@@ -1,0 +1,23 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " RG ",
+        "B  R"
+    ],
+    "key": {
+        "G": {
+            "item": "cobblemonsimplecreation:green_apricorn_shell_piece"
+        },
+        "R": {
+            "item": "cobblemonsimplecreation:red_apricorn_shell_piece"
+        },
+        "B": {
+            "item": "cobblemonsimplecreation:blue_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:lure_ball_lid"
+    }
+}

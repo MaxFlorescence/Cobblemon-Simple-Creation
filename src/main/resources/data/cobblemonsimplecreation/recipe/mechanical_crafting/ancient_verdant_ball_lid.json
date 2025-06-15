@@ -1,0 +1,20 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " GT ",
+        "T  G"
+    ],
+    "key": {
+        "T": {
+            "item": "cobblemonsimplecreation:tumblestone_piece"
+        },
+        "G": {
+            "item": "cobblemonsimplecreation:green_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:ancient_verdant_ball_lid"
+    }
+}

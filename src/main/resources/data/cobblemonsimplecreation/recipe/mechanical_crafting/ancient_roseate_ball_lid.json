@@ -1,0 +1,20 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " PT ",
+        "T  P"
+    ],
+    "key": {
+        "T": {
+            "item": "cobblemonsimplecreation:tumblestone_piece"
+        },
+        "P": {
+            "item": "cobblemonsimplecreation:pink_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:ancient_roseate_ball_lid"
+    }
+}

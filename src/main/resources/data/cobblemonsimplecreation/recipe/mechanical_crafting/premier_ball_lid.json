@@ -1,0 +1,17 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " WW ",
+        "W  W"
+    ],
+    "key": {
+        "W": {
+            "item": "cobblemonsimplecreation:white_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:premier_ball_lid"
+    }
+}

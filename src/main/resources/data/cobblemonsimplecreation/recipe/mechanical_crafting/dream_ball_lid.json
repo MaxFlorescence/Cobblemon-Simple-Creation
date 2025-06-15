@@ -1,0 +1,23 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " RP ",
+        "P  B"
+    ],
+    "key": {
+        "P": {
+            "item": "cobblemonsimplecreation:pink_apricorn_shell_piece"
+        },
+        "R": {
+            "item": "cobblemonsimplecreation:red_apricorn_shell_piece"
+        },
+        "B": {
+            "item": "cobblemonsimplecreation:blue_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:dream_ball_lid"
+    }
+}

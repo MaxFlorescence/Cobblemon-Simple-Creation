@@ -1,0 +1,23 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " RT ",
+        "T  B"
+    ],
+    "key": {
+        "T": {
+            "item": "cobblemonsimplecreation:tumblestone_piece"
+        },
+        "B": {
+            "item": "cobblemonsimplecreation:blue_apricorn_shell_piece"
+        },
+        "R": {
+            "item": "cobblemonsimplecreation:red_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:ancient_great_ball_lid"
+    }
+}

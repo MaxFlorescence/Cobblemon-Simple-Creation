@@ -1,0 +1,20 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " PW ",
+        "W  P"
+    ],
+    "key": {
+        "P": {
+            "item": "cobblemonsimplecreation:pink_apricorn_shell_piece"
+        },
+        "W": {
+            "item": "cobblemonsimplecreation:white_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:heal_ball_lid"
+    }
+}

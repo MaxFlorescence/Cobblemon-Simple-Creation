@@ -1,0 +1,23 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": true,
+    "pattern": [
+        " SS ",
+        "B  W"
+    ],
+    "key": {
+        "S": {
+            "item": "cobblemonsimplecreation:sky_tumblestone_piece"
+        },
+        "B": {
+            "item": "cobblemonsimplecreation:blue_apricorn_shell_piece"
+        },
+        "W": {
+            "item": "cobblemonsimplecreation:white_apricorn_shell_piece"
+        }
+    },
+    "result": {
+        "count": 1,
+        "id": "cobblemonsimplecreation:ancient_feather_ball_lid"
+    }
+}
