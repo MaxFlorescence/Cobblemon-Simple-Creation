@@ -2,7 +2,7 @@
     "type": "create:mechanical_crafting",
     "accept_mirrored": true,
     "pattern": [
-        " BP ",
+        " KP ",
         "Y  R"
     ],
     "key": {

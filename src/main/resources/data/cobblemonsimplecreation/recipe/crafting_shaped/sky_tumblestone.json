@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "key": {
-        "D": {
+        "T": {
             "item": "cobblemonsimplecreation:sky_tumblestone_piece"
         }
     },
