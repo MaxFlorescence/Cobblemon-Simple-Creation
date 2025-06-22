@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "cobblemon:hopo_berry"
+        },
+        {
+            "item": "cobblemon:vivichoke"
+        },
+        {
+            "item": "cobblemon:pep_up_flower"
+        },
+        {
+            "type": "fluid_stack",
+            "amount": 250,
+            "fluid": "cobblemonsimplecreation:pp_up_source"
+        }
+    ],
+    "results": [
+        {
+            "amount": 250,
+            "id": "cobblemonsimplecreation:pp_max_source"
+        }
+    ]
+}

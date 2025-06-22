@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "cobblemon:grepa_berry"
+        },
+        {
+            "item": "cobblemon:pink_mint_leaf"
+        },
+        {
+            "tag": "cobblemon:zinc_ingredients"
+        },
+        {
+            "type": "fluid_stack",
+            "amount": 250,
+            "fluid": "cobblemonsimplecreation:medicinal_brew_source"
+        }
+    ],
+    "results": [
+        {
+            "amount": 250,
+            "id": "cobblemonsimplecreation:zinc_source"
+        }
+    ]
+}

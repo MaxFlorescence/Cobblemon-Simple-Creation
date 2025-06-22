@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "cobblemon:hondew_berry"
+        },
+        {
+            "item": "cobblemon:cyan_mint_leaf"
+        },
+        {
+            "item": "minecraft:bone_meal"
+        },
+        {
+            "type": "fluid_stack",
+            "amount": 250,
+            "fluid": "cobblemonsimplecreation:medicinal_brew_source"
+        }
+    ],
+    "results": [
+        {
+            "amount": 250,
+            "id": "cobblemonsimplecreation:calcium_source"
+        }
+    ]
+}

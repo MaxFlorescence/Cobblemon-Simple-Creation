@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "cobblemon:qualot_berry"
+        },
+        {
+            "item": "cobblemon:blue_mint_leaf"
+        },
+        {
+            "item": "cobblemon:beetroot"
+        },
+        {
+            "type": "fluid_stack",
+            "amount": 1000,
+            "fluid": "cobblemonsimplecreation:medicinal_brew_source"
+        }
+    ],
+    "results": [
+        {
+            "amount": 250,
+            "id": "cobblemonsimplecreation:iron_source"
+        }
+    ]
+}
