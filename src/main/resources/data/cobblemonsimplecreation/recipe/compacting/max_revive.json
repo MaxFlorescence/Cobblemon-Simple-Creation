@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "cobblemon:revive"
+    },
+    {
+      "item": "cobblemon:revive"
+    },
+    {
+      "item": "cobblemon:revive"
+    },
+    {
+      "item": "cobblemon:vivichoke"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:max_revive"
+    }
+  ]
+}

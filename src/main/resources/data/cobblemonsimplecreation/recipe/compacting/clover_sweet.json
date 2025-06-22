@@ -1,0 +1,21 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "create:honey"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:clover_sweet"
+    }
+  ]
+}
