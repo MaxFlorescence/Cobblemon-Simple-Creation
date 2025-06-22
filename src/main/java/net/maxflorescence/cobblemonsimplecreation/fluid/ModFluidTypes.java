@@ -23,7 +23,7 @@ public class ModFluidTypes {
         "medicinal_brew_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
                 .descriptionId("fluid_type.cobblemonsimplecreation.medicinal_brew_fluid_type"),
-        0xff_2ebca2
+        0xff_2b9986
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> POTION_FLUID_TYPE = registerFluidType(
@@ -51,7 +51,7 @@ public class ModFluidTypes {
         "max_potion_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
                 .descriptionId("fluid_type.cobblemonsimplecreation.max_potion_fluid_type"),
-        0xff_4991c9
+        0xff_2078c0
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> FULL_RESTORE_FLUID_TYPE = registerFluidType(
@@ -72,63 +72,63 @@ public class ModFluidTypes {
         "ice_heal_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
         .descriptionId("fluid_type.cobblemonsimplecreation.ice_heal_fluid_type"),
-        0xff_fa9f96
+        0xff_ffd0cc
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> PARALYZE_HEAL_FLUID_TYPE = registerFluidType(
         "paralyze_heal_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
         .descriptionId("fluid_type.cobblemonsimplecreation.paralyze_heal_fluid_type"),
-        0xff_edff7a
+        0xff_d2ea42
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> ANTIDOTE_FLUID_TYPE = registerFluidType(
         "antidote_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
         .descriptionId("fluid_type.cobblemonsimplecreation.antidote_fluid_type"),
-        0xff_fad951
+        0xff_fffa8d
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> AWAKENING_FLUID_TYPE = registerFluidType(
         "awakening_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
         .descriptionId("fluid_type.cobblemonsimplecreation.awakening_fluid_type"),
-        0xff_92faff
+        0xff_71d9e9
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> FULL_HEAL_FLUID_TYPE = registerFluidType(
         "full_heal_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
         .descriptionId("fluid_type.cobblemonsimplecreation.full_heal_fluid_type"),
-        0xff_dad21e
+        0xff_f7ef3f
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> ETHER_FLUID_TYPE = registerFluidType(
         "ether_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
         .descriptionId("fluid_type.cobblemonsimplecreation.ether_fluid_type"),
-        0xff_a0c0c0
+        0xff_d8a8e0
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> ELIXIR_FLUID_TYPE = registerFluidType(
         "elixir_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
         .descriptionId("fluid_type.cobblemonsimplecreation.elixir_fluid_type"),
-        0xff_d3ce97
+        0xff_f1b097
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> MAX_ETHER_FLUID_TYPE = registerFluidType(
         "max_ether_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
         .descriptionId("fluid_type.cobblemonsimplecreation.max_ether_fluid_type"),
-        0xff_d6dfe4
+        0xff_b9f197
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> MAX_ELIXIR_FLUID_TYPE = registerFluidType(
         "max_elixir_fluid_type",
         FluidType.Properties.create().density(1000).viscosity(1000)
         .descriptionId("fluid_type.cobblemonsimplecreation.max_elixir_fluid_type"),
-        0xff_f5f5a7
+        0xff_97f1e4
     );
 
     public static final DeferredHolder<FluidType, BaseFluidType> PROTEIN_FLUID_TYPE = registerFluidType(
