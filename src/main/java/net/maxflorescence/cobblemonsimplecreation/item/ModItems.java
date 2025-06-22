@@ -1,6 +1,6 @@
-package net.maxflorescence.mcmods.item;
+package net.maxflorescence.cobblemonsimplecreation.item;
 
-import net.maxflorescence.mcmods.CobblemonSimpleCreation;
+import net.maxflorescence.cobblemonsimplecreation.CobblemonSimpleCreation;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -108,6 +108,8 @@ public class ModItems {
     public static final DeferredItem<Item> INCOMPLETE_TIMER_BALL = ITEMS.register("incomplete_timer_ball", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> INCOMPLETE_ULTRA_BALL = ITEMS.register("incomplete_ultra_ball", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> INCOMPLETE_VERDANT_BALL = ITEMS.register("incomplete_verdant_ball", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> UNWRAPPED_RARE_CANDY = ITEMS.register("unwrapped_rare_candy", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RARE_CANDY_GLOB = ITEMS.register("rare_candy_glob", () -> new Item(new Item.Properties()));
 
     // Apricorn Shell Pieces
     public static final DeferredItem<Item> RED_APRICORN_SHELL_PIECE = ITEMS.register("red_apricorn_shell_piece", () -> new Item(new Item.Properties()));
@@ -129,7 +131,7 @@ public class ModItems {
     public static final DeferredItem<Item> ECHO_FRAGMENT = ITEMS.register("echo_fragment", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus modEventBus) {
-        // Register the Deferred Register to the mod event bus so blocks get registered
+        // Register the Deferred Register to the mod event bus so items get registered
         ITEMS.register(modEventBus);
     }
 }

@@ -1,4 +1,4 @@
-package net.maxflorescence.mcmods;
+package net.maxflorescence.cobblemonsimplecreation;
 
 import java.util.List;
 import java.util.Set;
