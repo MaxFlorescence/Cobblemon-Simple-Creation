@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "cobblemonsimplecreation:berry_juice_source"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:exp_candy_xs"
+    }
+  ]
+}

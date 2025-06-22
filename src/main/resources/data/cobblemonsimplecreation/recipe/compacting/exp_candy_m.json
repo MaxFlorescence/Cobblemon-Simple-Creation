@@ -1,0 +1,37 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "cobblemon:exp_candy_s"
+    },
+    {
+      "item": "cobblemon:exp_candy_s"
+    },
+    {
+      "item": "cobblemon:exp_candy_s"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:exp_candy_m"
+    }
+  ]
+}

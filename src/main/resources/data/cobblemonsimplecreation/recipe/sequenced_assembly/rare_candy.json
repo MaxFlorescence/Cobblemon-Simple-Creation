@@ -1,0 +1,46 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+    	"item": "cobblemonsimplecreation:rare_candy_glob"
+    },
+	"transitional_item": {
+		"id": "cobblemonsimplecreation:unwrapped_rare_candy"
+	}, 
+	"loops": 1,
+	"results": [
+		{
+            "id": "cobblemon:rare_candy"
+		}
+	],
+	"sequence": [
+		{
+			"type": "create:pressing",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:unwrapped_rare_candy"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:unwrapped_rare_candy"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": [
+				{
+					"item": "cobblemonsimplecreation:unwrapped_rare_candy"
+				},
+				{
+					"item": "minecraft:paper"
+				}
+			],
+			"results": [
+				{
+					"id": "cobblemonsimplecreation:unwrapped_rare_candy"
+				}
+			]
+		}
+	]
+}

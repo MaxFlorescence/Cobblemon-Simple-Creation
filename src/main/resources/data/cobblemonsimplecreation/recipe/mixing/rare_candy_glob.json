@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "heat_requirement": "heated",
+    "ingredients": [
+        {
+            "item": "cobblemon:exp_candy_xl"
+        },
+        {
+            "item": "cobblemon:vivichoke"
+        },
+        {
+            "item": "cobblemon:pep_up_flower"
+        },
+        {
+            "type": "fluid_stack",
+            "amount": 250,
+            "fluid": "create:honey"
+        }
+    ],
+    "results": [
+        {
+            "id": "cobblemonsimplecreation:rare_candy_glob"
+        }
+    ]
+}
