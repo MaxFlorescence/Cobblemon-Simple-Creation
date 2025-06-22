@@ -107,8 +107,38 @@
     "item.cobblemonsimplecreation.incomplete_timer_ball": "Incomplete Timer Ball",
     "item.cobblemonsimplecreation.incomplete_ultra_ball": "Incomplete Ultra Ball",
     "item.cobblemonsimplecreation.incomplete_verdant_ball": "Incomplete Verdant Ball",
+    "item.cobblemonsimplecreation.unwrapped_rare_candy": "Unwrapped Rare Candy",
+    "item.cobblemonsimplecreation.rare_candy_glob": "Rare Candy Glob",
 
     "item.cobblemonsimplecreation.diamond_shard": "Diamond Shard",
     "item.cobblemonsimplecreation.netherite_chunk": "Netherite Chunk",
-    "item.cobblemonsimplecreation.echo_fragment": "Echo Fragment"
+    "item.cobblemonsimplecreation.echo_fragment": "Echo Fragment",
+
+    "fluid_type.cobblemonsimplecreation.medicinal_brew_fluid_type": "Medicinal Brew",
+    "fluid_type.cobblemonsimplecreation.potion_fluid_type": "Potion",
+    "fluid_type.cobblemonsimplecreation.super_potion_fluid_type": "Super Potion",
+    "fluid_type.cobblemonsimplecreation.hyper_potion_fluid_type": "Hyper Potion",
+    "fluid_type.cobblemonsimplecreation.max_potion_fluid_type": "Max Potion",
+    "fluid_type.cobblemonsimplecreation.full_restore_fluid_type": "Full Restore",
+    "fluid_type.cobblemonsimplecreation.burn_heal_fluid_type": "Burn Heal",
+    "fluid_type.cobblemonsimplecreation.ice_heal_fluid_type": "Ice Heal",
+    "fluid_type.cobblemonsimplecreation.paralyze_heal_fluid_type": "Paralyze Heal",
+    "fluid_type.cobblemonsimplecreation.antidote_fluid_type": "Antidote",
+    "fluid_type.cobblemonsimplecreation.awakening_fluid_type": "Awakening",
+    "fluid_type.cobblemonsimplecreation.full_heal_fluid_type": "Full Heal",
+    "fluid_type.cobblemonsimplecreation.ether_fluid_type": "Ether",
+    "fluid_type.cobblemonsimplecreation.elixir_fluid_type": "Elixir",
+    "fluid_type.cobblemonsimplecreation.max_ether_fluid_type": "Max Ether",
+    "fluid_type.cobblemonsimplecreation.max_elixir_fluid_type": "Max Elixir",
+    
+    "fluid_type.cobblemonsimplecreation.protein_fluid_type": "Protein",
+    "fluid_type.cobblemonsimplecreation.calcium_fluid_type": "Calcium",
+    "fluid_type.cobblemonsimplecreation.iron_fluid_type": "Iron",
+    "fluid_type.cobblemonsimplecreation.zinc_fluid_type": "Zinc",
+    "fluid_type.cobblemonsimplecreation.carbos_fluid_type": "Carbos",
+    "fluid_type.cobblemonsimplecreation.hp_up_fluid_type": "HP Up",
+    "fluid_type.cobblemonsimplecreation.pp_up_fluid_type": "PP Up",
+    "fluid_type.cobblemonsimplecreation.pp_max_fluid_type": "PP Max",
+
+    "fluid_type.cobblemonsimplecreation.berry_juice_fluid_type": "Berry Juice"
 }
